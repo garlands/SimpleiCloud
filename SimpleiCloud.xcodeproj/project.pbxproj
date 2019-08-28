@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		447AB4442314B40900F31294 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447AB4432314B40900F31294 /* AppDelegate.swift */; };
+		447AB4462314B40900F31294 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447AB4452314B40900F31294 /* ViewController.swift */; };
+		447AB4492314B40900F31294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447AB4472314B40900F31294 /* Main.storyboard */; };
+		447AB44B2314B40B00F31294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447AB44A2314B40B00F31294 /* Assets.xcassets */; };
+		447AB44E2314B40B00F31294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447AB44C2314B40B00F31294 /* LaunchScreen.storyboard */; };
+		447AB4592314B40B00F31294 /* SimpleiCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447AB4582314B40B00F31294 /* SimpleiCloudTests.swift */; };
+		447AB4642314B40B00F31294 /* SimpleiCloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447AB4632314B40B00F31294 /* SimpleiCloudUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		447AB4552314B40B00F31294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 447AB4382314B40900F31294 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 447AB43F2314B40900F31294;
+			remoteInfo = SimpleiCloud;
+		};
+		447AB4602314B40B00F31294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 447AB4382314B40900F31294 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 447AB43F2314B40900F31294;
+			remoteInfo = SimpleiCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		447AB4402314B40900F31294 /* SimpleiCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleiCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		447AB4432314B40900F31294 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		447AB4452314B40900F31294 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		447AB4482314B40900F31294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		447AB44A2314B40B00F31294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		447AB44D2314B40B00F31294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		447AB44F2314B40B00F31294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		447AB4542314B40B00F31294 /* SimpleiCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleiCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		447AB4582314B40B00F31294 /* SimpleiCloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleiCloudTests.swift; sourceTree = "<group>"; };
+		447AB45A2314B40B00F31294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		447AB45F2314B40B00F31294 /* SimpleiCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleiCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		447AB4632314B40B00F31294 /* SimpleiCloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleiCloudUITests.swift; sourceTree = "<group>"; };
+		447AB4652314B40B00F31294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		447AB4712314B42200F31294 /* SimpleiCloud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleiCloud.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		447AB43D2314B40900F31294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447AB4512314B40B00F31294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447AB45C2314B40B00F31294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		447AB4372314B40900F31294 = {
+			isa = PBXGroup;
+			children = (
+				447AB4422314B40900F31294 /* SimpleiCloud */,
+				447AB4572314B40B00F31294 /* SimpleiCloudTests */,
+				447AB4622314B40B00F31294 /* SimpleiCloudUITests */,
+				447AB4412314B40900F31294 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		447AB4412314B40900F31294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				447AB4402314B40900F31294 /* SimpleiCloud.app */,
+				447AB4542314B40B00F31294 /* SimpleiCloudTests.xctest */,
+				447AB45F2314B40B00F31294 /* SimpleiCloudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		447AB4422314B40900F31294 /* SimpleiCloud */ = {
+			isa = PBXGroup;
+			children = (
+				447AB4712314B42200F31294 /* SimpleiCloud.entitlements */,
+				447AB4432314B40900F31294 /* AppDelegate.swift */,
+				447AB4452314B40900F31294 /* ViewController.swift */,
+				447AB4472314B40900F31294 /* Main.storyboard */,
+				447AB44A2314B40B00F31294 /* Assets.xcassets */,
+				447AB44C2314B40B00F31294 /* LaunchScreen.storyboard */,
+				447AB44F2314B40B00F31294 /* Info.plist */,
+			);
+			path = SimpleiCloud;
+			sourceTree = "<group>";
+		};
+		447AB4572314B40B00F31294 /* SimpleiCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				447AB4582314B40B00F31294 /* SimpleiCloudTests.swift */,
+				447AB45A2314B40B00F31294 /* Info.plist */,
+			);
+			path = SimpleiCloudTests;
+			sourceTree = "<group>";
+		};
+		447AB4622314B40B00F31294 /* SimpleiCloudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				447AB4632314B40B00F31294 /* SimpleiCloudUITests.swift */,
+				447AB4652314B40B00F31294 /* Info.plist */,
+			);
+			path = SimpleiCloudUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		447AB43F2314B40900F31294 /* SimpleiCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 447AB4682314B40B00F31294 /* Build configuration list for PBXNativeTarget "SimpleiCloud" */;
+			buildPhases = (
+				447AB43C2314B40900F31294 /* Sources */,
+				447AB43D2314B40900F31294 /* Frameworks */,
+				447AB43E2314B40900F31294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleiCloud;
+			productName = SimpleiCloud;
+			productReference = 447AB4402314B40900F31294 /* SimpleiCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		447AB4532314B40B00F31294 /* SimpleiCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 447AB46B2314B40B00F31294 /* Build configuration list for PBXNativeTarget "SimpleiCloudTests" */;
+			buildPhases = (
+				447AB4502314B40B00F31294 /* Sources */,
+				447AB4512314B40B00F31294 /* Frameworks */,
+				447AB4522314B40B00F31294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				447AB4562314B40B00F31294 /* PBXTargetDependency */,
+			);
+			name = SimpleiCloudTests;
+			productName = SimpleiCloudTests;
+			productReference = 447AB4542314B40B00F31294 /* SimpleiCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		447AB45E2314B40B00F31294 /* SimpleiCloudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 447AB46E2314B40B00F31294 /* Build configuration list for PBXNativeTarget "SimpleiCloudUITests" */;
+			buildPhases = (
+				447AB45B2314B40B00F31294 /* Sources */,
+				447AB45C2314B40B00F31294 /* Frameworks */,
+				447AB45D2314B40B00F31294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				447AB4612314B40B00F31294 /* PBXTargetDependency */,
+			);
+			name = SimpleiCloudUITests;
+			productName = SimpleiCloudUITests;
+			productReference = 447AB45F2314B40B00F31294 /* SimpleiCloudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		447AB4382314B40900F31294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Masahiro Tamamura";
+				TargetAttributes = {
+					447AB43F2314B40900F31294 = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					447AB4532314B40B00F31294 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 447AB43F2314B40900F31294;
+					};
+					447AB45E2314B40B00F31294 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 447AB43F2314B40900F31294;
+					};
+				};
+			};
+			buildConfigurationList = 447AB43B2314B40900F31294 /* Build configuration list for PBXProject "SimpleiCloud" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 447AB4372314B40900F31294;
+			productRefGroup = 447AB4412314B40900F31294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				447AB43F2314B40900F31294 /* SimpleiCloud */,
+				447AB4532314B40B00F31294 /* SimpleiCloudTests */,
+				447AB45E2314B40B00F31294 /* SimpleiCloudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		447AB43E2314B40900F31294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447AB44E2314B40B00F31294 /* LaunchScreen.storyboard in Resources */,
+				447AB44B2314B40B00F31294 /* Assets.xcassets in Resources */,
+				447AB4492314B40900F31294 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447AB4522314B40B00F31294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447AB45D2314B40B00F31294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		447AB43C2314B40900F31294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447AB4462314B40900F31294 /* ViewController.swift in Sources */,
+				447AB4442314B40900F31294 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447AB4502314B40B00F31294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447AB4592314B40B00F31294 /* SimpleiCloudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447AB45B2314B40B00F31294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447AB4642314B40B00F31294 /* SimpleiCloudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		447AB4562314B40B00F31294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 447AB43F2314B40900F31294 /* SimpleiCloud */;
+			targetProxy = 447AB4552314B40B00F31294 /* PBXContainerItemProxy */;
+		};
+		447AB4612314B40B00F31294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 447AB43F2314B40900F31294 /* SimpleiCloud */;
+			targetProxy = 447AB4602314B40B00F31294 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		447AB4472314B40900F31294 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				447AB4482314B40900F31294 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		447AB44C2314B40B00F31294 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				447AB44D2314B40B00F31294 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		447AB4662314B40B00F31294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		447AB4672314B40B00F31294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		447AB4692314B40B00F31294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimpleiCloud/SimpleiCloud.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L98QP37VE2;
+				INFOPLIST_FILE = SimpleiCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.jp.garlands.SimpleiCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		447AB46A2314B40B00F31294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimpleiCloud/SimpleiCloud.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L98QP37VE2;
+				INFOPLIST_FILE = SimpleiCloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.jp.garlands.SimpleiCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		447AB46C2314B40B00F31294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L98QP37VE2;
+				INFOPLIST_FILE = SimpleiCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.jp.garlands.SimpleiCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleiCloud.app/SimpleiCloud";
+			};
+			name = Debug;
+		};
+		447AB46D2314B40B00F31294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L98QP37VE2;
+				INFOPLIST_FILE = SimpleiCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.jp.garlands.SimpleiCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleiCloud.app/SimpleiCloud";
+			};
+			name = Release;
+		};
+		447AB46F2314B40B00F31294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L98QP37VE2;
+				INFOPLIST_FILE = SimpleiCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.jp.garlands.SimpleiCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleiCloud;
+			};
+			name = Debug;
+		};
+		447AB4702314B40B00F31294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L98QP37VE2;
+				INFOPLIST_FILE = SimpleiCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.jp.garlands.SimpleiCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleiCloud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		447AB43B2314B40900F31294 /* Build configuration list for PBXProject "SimpleiCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447AB4662314B40B00F31294 /* Debug */,
+				447AB4672314B40B00F31294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		447AB4682314B40B00F31294 /* Build configuration list for PBXNativeTarget "SimpleiCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447AB4692314B40B00F31294 /* Debug */,
+				447AB46A2314B40B00F31294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		447AB46B2314B40B00F31294 /* Build configuration list for PBXNativeTarget "SimpleiCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447AB46C2314B40B00F31294 /* Debug */,
+				447AB46D2314B40B00F31294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		447AB46E2314B40B00F31294 /* Build configuration list for PBXNativeTarget "SimpleiCloudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447AB46F2314B40B00F31294 /* Debug */,
+				447AB4702314B40B00F31294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 447AB4382314B40900F31294 /* Project object */;
+}
